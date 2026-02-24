@@ -3,6 +3,6 @@
         "../../typedoc.base.json"
     ],
   "entryPoints": [
-    "index.d.ts"
+    "index.js"
   ]
 }
