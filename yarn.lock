@@ -500,6 +500,7 @@ __metadata:
     "@endo/bundle-source": "workspace:^"
     "@endo/compartment-mapper": "workspace:^"
     "@endo/errors": "workspace:^"
+    "@endo/eventual-send": "workspace:^"
     "@endo/harden": "workspace:^"
     "@endo/init": "workspace:^"
     "@endo/ses-ava": "workspace:^"
@@ -804,6 +805,8 @@ __metadata:
     "@endo/bundle-source": "workspace:^"
     "@endo/compartment-mapper": "workspace:^"
     "@endo/errors": "workspace:^"
+    "@endo/evasive-transform": "workspace:^"
+    "@endo/eventual-send": "workspace:^"
     "@endo/harden": "workspace:^"
     "@endo/init": "workspace:^"
     "@endo/ses-ava": "workspace:^"
@@ -926,6 +929,7 @@ __metadata:
   resolution: "@endo/nat@workspace:packages/nat"
   dependencies:
     "@endo/compartment-mapper": "workspace:^"
+    "@endo/eventual-send": "workspace:^"
     "@endo/ses-ava": "workspace:^"
     ava: "catalog:dev"
     c8: "catalog:dev"
@@ -939,6 +943,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@endo/netstring@workspace:packages/netstring"
   dependencies:
+    "@endo/eventual-send": "workspace:^"
     "@endo/harden": "workspace:^"
     "@endo/init": "workspace:^"
     "@endo/promise-kit": "workspace:^"
@@ -1098,8 +1103,6 @@ __metadata:
     eslint: "catalog:dev"
     ses: "workspace:^"
     typescript: "npm:~5.9.2"
-  peerDependencies:
-    ava: ^5.3.0 || ^6.1.2
   bin:
     ses-ava: bin/ses-ava
   languageName: unknown
@@ -1204,6 +1207,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@endo/zip@workspace:packages/zip"
   dependencies:
+    "@endo/eventual-send": "workspace:^"
     ava: "catalog:dev"
     c8: "catalog:dev"
     eslint: "catalog:dev"
