@@ -3,6 +3,7 @@ import { X, Fail } from '@endo/errors';
 
 /**
  * @import {PassStyleHelper} from './internal-types.js';
+ * @import {} from '@endo/immutable-arraybuffer/shim.js';
  */
 
 const { getPrototypeOf, getOwnPropertyDescriptor } = Object;
