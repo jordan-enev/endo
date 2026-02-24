@@ -24,7 +24,7 @@
   "scripts": {
     "build": "exit 0",
     "prepack": "tsc --build tsconfig.build.json",
-    "postpack": "git clean -f \"*.d.ts*\" \"*.d.cts*\" \"*.d.mts*\" \"*.tsbuildinfo\"",
+    "postpack": "git ls-files --others --ignored --exclude-standard | awk '/\\.d\\.(ts|cts|mts)(\\.map)?$|\\.tsbuildinfo$/ { print }' | xargs rm -f",
     "lint": "yarn lint:types && yarn lint:eslint",
     "lint-fix": "eslint --fix .",
     "lint:eslint": "eslint .",
